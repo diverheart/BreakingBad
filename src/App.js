@@ -11,7 +11,7 @@ function App() {
   const [isLoading,setIsLoading]=useState(true)
   const [query,setQuery]=useState('')
   const [currentPage, setCurrentPage] = useState(1);
-  const [postsPerPage] = useState(10);
+  const [postsPerPage] = useState(8);
 
   useEffect(() => {
     const fetchItems=async () => {
